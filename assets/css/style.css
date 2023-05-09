@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-header {
-    margin: 0;
-}
-
 body {
     color: blue;
     font-family: 'Exo', sans-serif;
@@ -21,4 +17,20 @@ h3 {
     font-family: 'Exo', sans-serif;
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url(../images/edward-cisneros-_H6wpor9mjs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: aqua;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
