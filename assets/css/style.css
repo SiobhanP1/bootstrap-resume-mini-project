@@ -27,6 +27,22 @@ h3 {
     background-color: lavender;
 }
 
+.ui-menu-color-home {
+    background-color: lightsalmon;
+}
+
+.ui-menu-color-resume {
+    background-color: lightseagreen;
+}
+
+.ui-menu-color-contact {
+    background-color: lightcoral;
+}
+
+.ui-menu-color-download {
+    background-color: lightslategray;
+}
+
 /* ---------------------------------------Heading */
 
 header {
