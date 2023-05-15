@@ -15,10 +15,11 @@ The website is targeted at potential employers and recruiters, as well as fellow
 
 ## User Stories 
 
-* As a visiting user of this site, I want to know what makes this community garden special so I can decide whether it is worth visiting.
-* As a visiting user of this site, I need to know what kind of activities take place at the garden and who they are for so that I can decide whether to participate.
-* As a visiting user of this site, I need to know the location of the garden so that I can go there.
-* As a visiting user of this site, I need access to news about events so that I can participate. 
+* As a recruiter or employer, I want to know what makes this individual special so I can decide whether they are a good fit for my company.
+* As a recruiter, I want to know this individual's work history and skills so that I know whether they might be suitably qualified and skilled for a job. 
+* As a visiting developer, I want to know how to send a proposal so that we can build together.
+* As a recruiter or employer, I want to know how to contact this individual so that I can schedule an interview or get more information.
+* As a recruiter or employer, I want to know where to download their CV so that I share their information with others I work with.  
 
 ## Features
 
