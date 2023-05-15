@@ -1,108 +1,225 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Community Garden
 
-Welcome SiobhanP1,
+## Purpose
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website is based on the Resume Walkthrough Project provided by Code Institute, with minor changes. My goal in building it was to become familiar with Bootstrap, before moving on to building my own projects using Bootstrap. Bootstrap has been used in combination with other CSS in order to create a site that looks original. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The purpose of the Resume website is to:
+* clearly communicate skills and job history.
+* provide multiple methods of contact.
+* showcase personality and skill through the website itself. 
+* provide an option to download the individual's CV.
+* provide links to the individual's social media and Github pages. 
 
-## Gitpod Reminders
+The website is targeted at potential employers and recruiters, as well as fellow developers who would like to collaborate on a project. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Stories 
 
-`python3 -m http.server`
+* As a visiting user of this site, I want to know what makes this community garden special so I can decide whether it is worth visiting.
+* As a visiting user of this site, I need to know what kind of activities take place at the garden and who they are for so that I can decide whether to participate.
+* As a visiting user of this site, I need to know the location of the garden so that I can go there.
+* As a visiting user of this site, I need access to news about events so that I can participate. 
 
-A blue button should appear to click: _Make Public_,
+## Features
 
-Another blue button should appear to click: _Open Browser_.
+### Fixed Navigation Bar
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The navigation bar contains a link to each page. It is fixed at the top of each page so that it is always visible and easy to find. It allows the user to easily navigate between pages, and uses color to draw the user's attention to the Call to Action ('Contact Us' button).
 
-A blue button should appear to click: _Make Public_,
+![Navigation bar](docs/nav-bar-wireframe.png)
 
-Another blue button should appear to click: _Open Browser_.
+### Footer Containing Links to Social Media 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The footer contains links to the social media accounts connected to the website (Facebook, Instagram, Youtube). A title appears ('Follow us on Facebook') when the user's mouse hovers over one of the icons, encouraging the user to click. These links make it easy for the user to connect with and follow the Community Garden's social media accounts.  
 
-To log into the Heroku toolbelt CLI:
+![Footer containing social media links](docs/footer-wireframe.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Google Map Showing Location
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The iframe map shows the location of the garden on Google. The user can interact with the map-zoom in, zoom out, find their current location-in order to make it easy to locate and visit the garden. 
 
-------
+![Interactive Google map showing location](docs/iframe-map-wireframe.png)
 
-## Release History
+### Subscribe Form 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The subscribe form contains first name, last name and email input fields. Users can input this information if they want to receive news updates and information about events by email. The garden can share good information with users, keep in touch with users and publicise events.  
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Subscribe form](docs/subscribe-wireframe.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Article Sharing Background and 'Why'
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The 'Our Story' article shares the story behind the garden, why it was started and how it has grown over time. It includes both text and photos. It allows users to read and decide whether the values of the garden align with their own and whether they would like to become part of the garden community.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Our Story article](docs/our-story-wireframe.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### 'What We Do' Section on Home Page
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The 'What we do' section shares the main activities of the garden. The user can discover whether the garden will likely host activities that interest them, that they would like to participate in, or that they would like to find out more about.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![What We Do section on home page](docs/what-we-do-wireframe.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### 'Who We Are' Section on Home Page
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The 'Who We Are' section introduces the people behind the garden. It allows the users to 'meet' them. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Who We Are section on home page](docs/who-we-are-wireframe.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Future Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* An events section or page sharing event details, times, days, how to participate, etc.
+* A gallery page sharing photos from recent events.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Typography and Color Schemes 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Typography
 
-------
+* Montserrat is used for headings and Merriweather for body text. 
 
-## FAQ about the uptime script
+### Color Scheme
 
-**Why have you added this script?**
+* Green is used as the base color and background color for the navigation and footer sections, and appears in all of the images. Green was chosen due to its association with nature and gardens, fitting the theme of the website. 
+* Orange is used as an accent color and for call-to-action buttons as it provides a strong contrast with green.
+* All background and foreground color combinations on the website meet WCAG AA color contrast requirements. Color contrast was checked using [Web AIM](https://webaim.org/resources/contrastchecker/).
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Wireframes
 
-**How will this affect me?**
+### Page 1 of 3: The Home Page 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![The home page.](docs/home-page.png) 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Page 2 of 3: Our Story
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Our Story on page 2.](docs/page2-new-our-story.png) 
 
-**So….?**
+### Page 3 of 3: Contact Us
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![Contact Us on page 3.](docs/page3-contact-us.png)
 
-**Can I opt out?**
+### Subscribe Confirmation Page
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![Subscribe confirmation page.](docs/confirmation-page.png)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Pages 1 and 3 on a smaller mobile phone screen 
 
-**Anything more?**
+![The home page and Contact Us pages on a small phone screen.](docs/mobile-view-homepg-contact.png)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Technology
 
----
+* HTML was used to structure the pages and add features.
+* CSS was used to style the pages and features.
+* Github was used to store and to share the repository.
+* Gitpod was used to edit the code.
+* Balsamiq was used to create wireframes during the planning phase.
+* Chrome DevTools was used to check responsiveness and for debugging.
+* Font Awesome was used to source icons.
+* Google Maps is used to provide an interactive map showing the location of the garden.
 
-Happy coding!
+## Testing
+
+### Code Validation
+
+* The HTML code was validated using the [W3C Markup Validation Service](https://validator.w3.org/). No errors were found.
+* The CSS code was validated using the [W3C CSS Validation Service](https://validator.w3.org/). No errors were found.
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+
+### Test Cases 
+
+#### The Home Page
+
+1. Open the home page. The user is shown the hero image and main heading. The user notices that there is more text below the hero image. 
+2. Scroll down. The user is shown the What We Do section.
+3. Read the What We Do section. The user notices that there is an image below. 
+4. Scroll down. The user is shown the What We Do image.
+5. Look at the image. The user notices that there is more text below.
+6. Scroll down. The user is shown the Who We Are section text.
+4. Read the Who We Are section. The user notices that there are social media icons in the footer.
+5. Hover the mouse over the Facebook icon. A 'Visit our Facebook page' message appears.
+6. Click on the Facebook icon. The user is directed to the Facebook page.
+
+![Hero image on Home page](docs/homepg1.png)
+![What We Do section](docs/home-pg-2.png)
+![Who We Are section](docs/home-pg-3.png)
+
+#### Our Story
+
+1. Open the home page. The user notices the 'Our Story' button in the navigation bar.
+2. Click on 'Our Story'. The user is directed to the Our Story page.
+3. Read the heading and opening text. The user notices that there is an image below. 
+4. Scroll down. The user is shown an image.
+4. Look at the image. The user notices that there is more text below. 
+5. Scroll down. The user is shown the next part of the article text.
+5. Read the text. The user notices that there is another image below. 
+6. Scroll down. The user is shown the second article image.
+6. Look at the image. The user notices the social media icons at the bottom of the page.
+
+![Hero image on Home page](docs/homepg1.png)
+![Our Story page heading](docs/story-pg-1.png)
+![Our Story article part 1](docs/story-pg-2.png)
+![Our Story article part 2](docs/story-pg-3.png)
+
+#### Contact Us
+
+1. Open the home page. The user notices the Contact Us button in the navigation bar.
+2. Click on the Contact Us button. The user is directed to the Contact page.
+2. Read the subscribe section heading. The user notices the subscribe form.
+3. Enter your first name and click subscribe. A message appears asking the user to enter their last name.
+4. Enter your last name and click subscribe. A message appears asking the user to enter their email address.
+5. Enter your email address and click subscribe. The user is directed to the Confirmation page.
+
+![Hero image on home page](docs/new-home-pg.png) 
+![Subscribe form on Contact page](docs/new-contact-pg.png)
+![Enter email address in Subscribe form](docs/new-contact-pg-3.png) 
+![Confirmation page](docs/new-confirm-pg.png)
+
+### Fixed Bugs
+
+* The list items in the What We Do section appeared on top of the fixed navigation bar when they reached the top of the page instead of disappearing under it. This was fixed by adding a z-index style declaration (with high positive value) to the CSS code applied to the navigation bar.
+
+* A white space appeared under the footer bar on the Contact and Confirmation pages when viewing the website on the iPad Pro emulator in Chrome DevTools. This was fixed by increasing the size of the iframe map so that it occupied more vertical space. 
+
+### Supported Screens and Browsers
+
+* A mobile-first approach was taken for design. Media queries were used to accommodate screen widths from 280px up to 1200px. 
+* The website was tested on the following devices using the emulator in Chrome DevTools: Google Pixel 5, iPhone 12 Pro, Samsung Galaxy S8, Samsung Galaxy A51, Samsung Galaxy S20 Ultra, iPad, iPad Air, Galaxy Fold, iPad Pro.
+* It has not been tested on browsers other than Chrome. 
+
+## Deployment
+
+### Via Gitpod
+
+To open up the site in Gitpod, follow the following steps:
+
+1. Go to http://github.com.
+2. Open up the 'SiobhanP1/community-garden' repository.
+3. Click 'Gitpod' to open up a workspace in Gitpod.
+4. Enter the command `python3 -m http.server` in the terminal to open a port.
+5. A small box will appear. 
+6. Click 'Open in browser' to open the site in a new tab. 
+
+### Via Github Pages
+
+The site was deployed to Github Pages by following the steps below.
+
+1. Open up the 'SiobhanP1/community-garden' repository in Github.
+2. Click 'Settings'.
+3. Click 'Pages' (located in the sidebar under Code and Automation).
+4. Select 'Deploy from Branch' from the Source drop-down menu.
+5. Select 'Main' from the Branch drop-down menu.
+6. Click 'Save'.
+7. Wait a minute then refresh the page to see the site link.
+
+The live link is https://siobhanp1.github.io/community-garden/.
+
+## Credits
+
+### Images
+
+* The hero image of [tomatoes](https://unsplash.com/photos/4LiUI-Y2mI8) on the home page was taken from [Unsplash](http://www.unsplash.com). 
+* 
