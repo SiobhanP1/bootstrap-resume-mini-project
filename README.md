@@ -23,52 +23,49 @@ The website is targeted at potential employers and recruiters, as well as fellow
 
 ## Features
 
-### Fixed Navigation Bar
+### Navigation Bar
 
-The navigation bar contains a link to each page. It is fixed at the top of each page so that it is always visible and easy to find. It allows the user to easily navigate between pages, and uses color to draw the user's attention to the Call to Action ('Contact Us' button).
+* The navigation bar is large, colorful and in a prominent location on each page. 
+* It contains links to the Home page, Resume page, Contact page and a Download CV button. 
 
-![Navigation bar](docs/nav-bar-wireframe.png)
+### Name, Job Title and Profile Photo
 
-### Footer Containing Links to Social Media 
+* The individual's name and job title form the main heading on each page.
+* A large professional photo appears at the top of each page.
+* The design is intended to mimic the style and arrangement of information on a typical CV.
 
-The footer contains links to the social media accounts connected to the website (Facebook, Instagram, Youtube). A title appears ('Follow us on Facebook') when the user's mouse hovers over one of the icons, encouraging the user to click. These links make it easy for the user to connect with and follow the Community Garden's social media accounts.  
+### Footer
 
-![Footer containing social media links](docs/footer-wireframe.png)
+* The same footer appears at the bottom of each page.
+* It contains a short 'About' summary, a 'CV Download' button, and links to social media pages.
 
-### Google Map Showing Location
+### 'Personal Information' and 'About Me' Sections
 
-The iframe map shows the location of the garden on Google. The user can interact with the map-zoom in, zoom out, find their current location-in order to make it easy to locate and visit the garden. 
+* The Home page displays both Personal Information and About Me sections. 
+* The Personal Information section shows the person's name, address and phone number.
+* The About Me section contains texts that answer the questions 'What do I do?', 'How do I do it?' and 'Why Hire Me?'
 
-![Interactive Google map showing location](docs/iframe-map-wireframe.png)
+### Work History Timeline
 
-### Subscribe Form 
+* The Resume page contains a Work History Timeline.
+* The timeline shows key places of employment, job titles and dates of work, up to the present.
 
-The subscribe form contains first name, last name and email input fields. Users can input this information if they want to receive news updates and information about events by email. The garden can share good information with users, keep in touch with users and publicise events.  
+### Skills Section
 
-![Subscribe form](docs/subscribe-wireframe.png)
+* The Resume page contains a Skills sections.
+* This section lists various programming languages.
+* The level of skill attained in each language is shown using a Progress Bar. 
 
-### Article Sharing Background and 'Why'
+### Contact Form
 
-The 'Our Story' article shares the story behind the garden, why it was started and how it has grown over time. It includes both text and photos. It allows users to read and decide whether the values of the garden align with their own and whether they would like to become part of the garden community.
+* The Contact page contains a form allowing input of a site visitor's email address and a project proposal.
+* Visitors are invited to suggest projects to collaborate on. 
 
-![Our Story article](docs/our-story-wireframe.png)
+## Option to Download PDF of CV
 
-### 'What We Do' Section on Home Page
-
-The 'What we do' section shares the main activities of the garden. The user can discover whether the garden will likely host activities that interest them, that they would like to participate in, or that they would like to find out more about.
-
-![What We Do section on home page](docs/what-we-do-wireframe.png)
-
-### 'Who We Are' Section on Home Page
-
-The 'Who We Are' section introduces the people behind the garden. It allows the users to 'meet' them. 
-
-![Who We Are section on home page](docs/who-we-are-wireframe.png)
-
-## Future Features
-
-* An events section or page sharing event details, times, days, how to participate, etc.
-* A gallery page sharing photos from recent events.
+* Visitors can download a PDF of the individual's CV simply by clicking on the 'Download' button in the main nav bar on each page.
+* There is also a download button in the footer of each page.
+* Clicking 'Download' opens a PDF in a new tab in the visitor's browser.
 
 ## Typography and Color Schemes 
 
