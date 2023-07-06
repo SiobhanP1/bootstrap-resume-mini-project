@@ -13,6 +13,10 @@ The purpose of the Resume website is to:
 
 The website is targeted at potential employers and recruiters, as well as fellow developers who would like to collaborate on a project. 
 
+### Project Status
+
+This project is as yet incomplete. Some bugs remain and there is still information that is missing in places on the site and in this README document. 
+
 ## User Stories 
 
 * As a recruiter or employer, I want to know what makes this individual special so I can decide whether they are a good fit for my company.
@@ -60,12 +64,18 @@ The website is targeted at potential employers and recruiters, as well as fellow
 
 * The Contact page contains a form allowing input of a site visitor's email address and a project proposal.
 * Visitors are invited to suggest projects to collaborate on. 
+* When the user clicks 'Submit', the information is sent via email by EmailJS to the site owner's specified email address. 
 
 ### Option to Download PDF of CV
 
 * Visitors can download a PDF of the individual's CV simply by clicking on the 'Download' button in the main nav bar on each page.
 * There is also a download button in the footer of each page.
-* Clicking 'Download' opens a PDF in a new tab in the visitor's browser.
+* Clicking 'Download' opesns a PDF in a new tab in the visitor's browser.
+
+### Google Map
+
+* A map is displayed on the Interests page showing the locations of conferences attended. 
+* This is facilitated by using the Google Maps API.
 
 ## Future Features
 
@@ -93,6 +103,8 @@ The website is targeted at potential employers and recruiters, as well as fellow
 * Gitpod was used to edit the code.
 * Chrome DevTools was used to check responsiveness and for debugging.
 * Bootstrap was used to source icons and for much of the styling and layout.
+* EmailJS is used to send an email containing the information submitted by the user in the form on the Contact page. 
+* Google Maps is used to display a map of locations visited by the owner of the website. 
 
 ## Testing
 
@@ -108,6 +120,11 @@ The website is targeted at potential employers and recruiters, as well as fellow
 ### Fixed Bugs
 
 * 
+
+### Remaining Bugs
+
+* When a username is typed into the entry field on the Github page, the user's details appear but the list of their repositories does not. 
+* Google Maps does not display correctly on the Interests page. 
 
 ### Supported Screens and Browsers
 
@@ -149,4 +166,4 @@ The site was deployed to Github Pages by following the steps below.
 
 ### Other
 
-* The main layout and design decisions were those provided in the Bootstrap Resume Walkthrough Project at Code Institute.
+* The main layout, code and design decisions were those provided in the Bootstrap Resume Walkthrough Project at Code Institute.
