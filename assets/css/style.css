@@ -41,6 +41,14 @@ h3 {
     background-color: lightslategray;
 }
 
+.ui-menu-color-interests {
+    background-color: rgb(111, 111, 226);
+}
+
+.ui-menu-color-github {
+    background-color: purple;
+}
+
 .bg-color-three-reasons {
     background-color: #fff;
 }
